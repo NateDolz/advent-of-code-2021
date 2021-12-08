@@ -21,8 +21,6 @@ def check_depths(depths)
         sum_1 = 0
         coll_1.each {|depth| sum_1 = sum_1 + depth}
 
-        puts "sum 2: #{sum_2}, sum 1: #{sum_1}"
-
         increases = increases + (sum_2 > sum_1 ? 1 : 0)
 
         coll_1 = coll_2.clone
