@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# node
+npm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+node_modules/
+
+# ruby
+*.gem
+*.rbc
+/.config
+
+# common
+.env
